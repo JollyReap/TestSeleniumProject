@@ -49,6 +49,8 @@ class Bot:
         size = img.size                 # dict {'width': 14412, 'height': 1421}
 
         self.crop(location, size)
+
+
 def main():
     class_bot = Bot()
 
